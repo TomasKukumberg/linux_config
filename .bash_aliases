@@ -1,4 +1,5 @@
-#aliases for better commands
+# aliases for better commands
+# better commands article: https://www.root.cz/zpravicky/moderni-alternativy-terminalovych-prikazu/
 
 # exa https://the.exa.website/
 alias ls="exa --long --header --git"
