@@ -10,5 +10,8 @@ alias ps="procs --pager disable --sortd cpu"
 # duf https://github.com/muesli/duf
 alias df="duf --sort size"
 # create a python virtual environment
-alias ve='python3 -m venv ./venv'
-alias va='source ./venv/bin/activate'
+alias ve="python3 -m venv ./venv"
+alias va="source ./venv/bin/activate"
+
+# other aliases
+alias colors="for c in {0..255}; do tput setaf $c; tput setaf $c | cat -v; echo '   =   $c'; done"
