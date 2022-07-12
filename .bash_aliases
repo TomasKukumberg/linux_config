@@ -9,6 +9,9 @@ alias cat="bat --paging=never --style=plain"
 alias ps="procs --pager disable --sortd cpu"
 # duf https://github.com/muesli/duf
 alias df="duf --sort size"
+# rmtrash https://github.com/PhrozenByte/rmtrash
+alias rm='rmtrash'
+alias rmdir='rmdirtrash'
 # create a python virtual environment
 alias ve='python3 -m venv ./venv'
 alias va='source ./venv/bin/activate'
